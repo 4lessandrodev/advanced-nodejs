@@ -1,0 +1,13 @@
+{
+    "name": "params",
+    "version": "0.0.1",
+    "author": "4lessandroDev",
+    "license": "MIT",
+    "scripts": {
+        "gc": "node --trace-gc -e ./index.js arg1 arg2 1 2 3",
+        "brk": "node --inspect --inspect-brk ./index.js",
+        "prs": "node -r ./pre-script ./index.js",
+        "wt": "node ./watch.js",
+        "args": "node -p 'process.argv.slice(1)' hello 42"
+    }
+}

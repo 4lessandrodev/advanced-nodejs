@@ -1,0 +1,9 @@
+{
+    "name": "erros",
+    "version": "0.0.1",
+    "author": "4lessandroDev",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./index.js"
+    }
+}

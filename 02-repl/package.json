@@ -1,0 +1,10 @@
+{
+    "name": "repl",
+    "version": "0.0.1",
+    "author": "4lessandroDev",
+    "license": "MIT",
+    "scripts": {
+        "repl": "node ./repl.js",
+        "crepl": "node ./crepl.js"
+    }
+}
