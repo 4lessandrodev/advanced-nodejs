@@ -1,0 +1,7 @@
+{
+    "name": "modules",
+    "version": "0.0.1",
+    "scripts": {
+        "args": "node ./arguments.js"
+    }
+}
