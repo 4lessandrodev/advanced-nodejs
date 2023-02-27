@@ -1,0 +1,8 @@
+{
+    "name": "sockets",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node ./index.js",
+        "connect":"nc localhost 8000"
+    }
+}
