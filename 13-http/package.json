@@ -1,0 +1,12 @@
+{
+    "name": "node-http",
+    "version": "0.0.1",
+    "scripts": {
+        "https": "ts-node ./https.ts",
+        "request:get": "ts-node ./request-get.ts",
+        "url": "ts-node ./url.ts"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}
