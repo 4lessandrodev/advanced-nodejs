@@ -1,0 +1,11 @@
+{
+    "name": "node-http",
+    "version": "0.0.1",
+    "scripts": {
+        "create-file": "ts-node ./big-file-create.ts",
+        "serve": "ts-node ./serve.ts"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}
