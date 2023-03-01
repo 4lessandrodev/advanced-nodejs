@@ -1,0 +1,14 @@
+{
+    "name": "node-common",
+    "version": "0.0.1",
+    "scripts": {
+        "os": "ts-node ./os.ts",
+        "truncate": "ts-node ./truncate.ts",
+        "create-files": "ts-node ./create-files.ts",
+        "delete-files": "ts-node ./delete-old-files.ts",
+        "watch-files": "ts-node ./watch.ts"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}
