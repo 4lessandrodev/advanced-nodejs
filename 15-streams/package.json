@@ -3,7 +3,11 @@
     "version": "0.0.1",
     "scripts": {
         "create-file": "ts-node ./big-file-create.ts",
-        "serve": "ts-node ./serve.ts"
+        "serve": "ts-node ./serve.ts",
+        "stream:console": "ts-node ./streams.ts",
+        "process:zip":"ts-node ./read-zip-encrypt-write.ts",
+        "process:unzip":"ts-node ./read-unzip-decrypt-write.ts",
+        "duplex":"ts-node ./duplex.ts"
     },
     "devDependencies": {
         "ts-node": "^10.9.1"
