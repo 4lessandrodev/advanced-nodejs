@@ -10,6 +10,14 @@ if (cluster.isPrimary) {
         cluster.fork();
         i++;
     }
+
+    // criar novo worker se algum der erro
+    cluster.on('exit', (worker, code, signal) => {
+        // garantir que foi um erro no worker
+        const canCreateNewOne = code !== 0 && !worker.exitedAfterDisconnect;
+        if(canCreateNewOne) cluster.fork();
+    });
+
 } else {
     bootstrap();
 }
