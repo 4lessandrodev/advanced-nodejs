@@ -1,0 +1,11 @@
+{
+    "name": "child",
+    "version": "0.0.1",
+    "scripts": {
+        "child": "ts-node ./background.ts",
+        "fork": "ts-node ./fork/server.ts"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}
