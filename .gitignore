@@ -1,3 +1,5 @@
 node_modules/
 *.js
 big-file
+!16-child-process/timer.js
+!16-child-process/*/hard.js
